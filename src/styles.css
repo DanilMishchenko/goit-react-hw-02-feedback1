@@ -1,21 +1,9 @@
-#root {
-  width: 300px;
+.feedback {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
   padding: 20px;
-  margin: 100px 100px;
-  border: 1px solid black;
-  box-shadow: 5px 5px 5px black;
-}
-
-li {
-  list-style: none;
-}
-
-button {
-  font-weight: 500;
-  background-color: rgb(66, 143, 231);
-  color: white;
-  margin: 15px;
-  border-color: transparent;
-  box-shadow: 2px 2px 4px black;
-  cursor: pointer;
+  margin-top: 100px;
+  border: 1px solid rgb(66, 143, 231);
+  box-shadow: 5px 5px 5px rgb(66, 143, 231);
 }
