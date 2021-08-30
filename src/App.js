@@ -29,7 +29,7 @@ class App extends Component {
   };
 
   render() {
-    const { good, neutral, bad } = this.props;
+    const { good, neutral, bad } = this.state;
     return (
       <>
         <Section title="Please leave feedback">
