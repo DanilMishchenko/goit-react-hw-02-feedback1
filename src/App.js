@@ -14,9 +14,8 @@ class App extends Component {
     bad: 0,
   };
 
-  handleClick = (event) => {
-    const review = event.target.textContent;
-    this.setState({ [review]: this.state[review] + 1 });
+  handleClick = (option) => {
+    this.setState({ [option]: this.state[option] + 1 });
     this.countPositiveFeedbackPercentage();
   };
 

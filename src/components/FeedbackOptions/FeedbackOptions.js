@@ -18,7 +18,7 @@ class FeedbackButtons extends Component {
               key={option}
               className={styles.feedback__buttons}
               type="button"
-              onClick={onLeaveFeedback}
+              onClick={() => onLeaveFeedback(option)}
             >
               {option}
             </button>
